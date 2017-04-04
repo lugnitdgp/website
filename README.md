@@ -1,13 +1,5 @@
 # <a name="jalpc"></a>Jalpc. [![Analytics](https://ga-beacon.appspot.com/UA-73784599-1/welcome-page)](https://github.com/jarrekk/Jalpc)
 
-[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
-[![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badge/)
-
-<https://jarrekk.github.io/Jalpc/>
-
-![Blog](https://github.com/jarrekk/Jalpc/raw/master/readme_files/Jalpc.png)
-
 * [3 steps to setup this theme at your website!](#three-steps)
 * [Features](#features)
     * [Index page](#index-page)
@@ -18,19 +10,10 @@
     * [Page views counter](#page-views-counter)
     * [Multilingual Page](#multilingual-page)
     * [Web analytics](#web-analytics)
-    * [Comment](#comment)
-    * [Share](#share)
     * [Search engines](#search-engines)
     * [Compress CSS and JS files](#compress-css-js)
-* [Put in a Jalpc Plug](#put-in-a-jalpc-plug)
-* [Upgrading Jalpc](#upgrading-jalpc)
-    * [Ensure there's an upstream remote](#ensure-theres-an-upstream-remote)
-    * [Pull in the latest changes](#pull-in-the-latest-changes)
 * [Thanks to the following](#thanks-to-the-following)
 * [Todo](#todo)
-* [Change Log](#change-log)
-* [Donate Jalpc](#donate)
-* [Ad](#ad)
 
 This is a simple, beautiful and swift theme for Jekyll. It's mobile first, fluidly responsive, and delightfully lightweight.
 
@@ -121,16 +104,6 @@ About how to custom multilingual page, please see [wiki](https://github.com/jarr
 
 I use [Google analytics](https://www.google.com/analytics/) and [GrowingIO](https://www.growingio.com/) to do web analytics, you can choose either to realize it,just register a account and replace id in `_config.yml`.
 
-### <a name="comment"></a>Comment
-
-I use [Disqus](https://disqus.com/) to realize comment. You should set disqus_shortname and get public key and then, in `_config.yml`, edit the disqus value to enable Disqus.
-
-### <a name="share"></a>Share
-
-I use [AddToAny](https://www.addtoany.com/) to share my blog on other social network platform. You can go to this website to custom your share buttons and paste code at `_includes/share.html`.
-
-![share](https://github.com/jarrekk/Jalpc/raw/master/readme_files/share.png)
-
 ### <a name="search-engines"></a>Search engines
 
 I use javascript to realize blog search,you can double click `Ctrl` or click the icon at lower right corner of the page,the detail you can got to this [repository](https://github.com/androiddevelop/jekyll-search). Just use it.
@@ -161,30 +134,6 @@ I use [UglifyJS2](https://github.com/mishoo/UglifyJS2), [clean-css](https://gith
   **xxx** is date when you compress your files.
 3. If you want to add or remove CSS/JS files, just edit **build/build.js** and **build/files.conf.js**, then run `npm run build` at root dir of project, link/src files will use new files.
 
-## <a name="put-in-a-jalpc-plug"></a>Put in a Jalpc Plug
-
-If you want to give credit to the Jalpc theme with a link to my personal website <http://www.jarrekk.com>, that'd be awesome. No worries if you don't.
-
-## <a name="upgrading-jalpc"></a>Upgrading Jalpc
-
-Jalpc is always being improved by its users, so sometimes one may need to upgrade.
-
-### <a name="ensure-theres-an-upstream-remote"></a>Ensure there's an upstream remote
-
-If `git remote -v` doesn't have an upstream listed, you can do the following to add it:
-
-```
-git remote add upstream https://github.com/jarrekk/Jalpc.git
-```
-
-### <a name="pull-in-the-latest-changes"></a>Pull in the latest changes
-
-```
-git pull upstream gh-pages
-```
-
-There may be merge conflicts, so be sure to fix the files that git lists if they occur. That's it!
-
 ## <a name="thanks-to-the-following"></a>Thanks to the following
 * [Jekyll](http://jekyllrb.com)
 * [Bootstrap](http://www.bootcss.com)
@@ -202,15 +151,3 @@ There may be merge conflicts, so be sure to fix the files that git lists if they
 
 ## <a name="todo"></a>Todo
 - [ ] `jekyll server --watch` mode need to use original CSS/JS files
-
-##  <a name="change-log"></a>Change Log
-Please see [wiki](https://github.com/jarrekk/Jalpc/wiki/Change-Log)
-
-## <a name="donate"></a>Donate Jalpc
-If this project let you enjoy your blog time, you can give me a cup of coffee :)
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/jarrekk)
-
-## <a name="ad"></a>Ad
-[Jalpc-A](https://github.com/Jack614/Jalpc-A): another Jekyll theme written by [AngularJS](https://angularjs.org/).
-
